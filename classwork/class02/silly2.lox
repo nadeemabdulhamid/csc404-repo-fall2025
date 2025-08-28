@@ -1,0 +1,29 @@
+// predict output
+
+class M {
+  init(n) { this.n = n; }
+
+  p() {
+
+    fun f(i) {
+      if (i > this.n) return;
+      var s = "";
+
+      fun g(j) {
+        if (j > i) return;
+        s = s + "meow ";
+        g(j + 1);
+      }
+
+      g(1);
+      print s;
+      f(i + 1);
+    }
+
+    f(1);
+  }
+
+}
+
+var x = M(5);
+x.p();

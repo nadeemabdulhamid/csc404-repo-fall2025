@@ -1,0 +1,35 @@
+// identify syntax errors  (otherwise predict output)
+
+// 1.
+var x = 5
+print x;
+
+// 2.
+fun f(a, b) { return a + b; }
+print f(2, 3); // 2. Valid
+
+// 3.
+if ((0 or 1) and (2 > 1) or ("cat" and 3 - 3 or 4)) 
+    print nil and "yes" or 1 + 2 * 2 and 101 or 4 - 200 or 3 and 7; 
+else print "no" or 300 and 1;
+
+// 4.
+var 1abc = 10;
+
+// 5.
+class Cat { speak() { print "meow"; } }
+
+// 6.
+print "hello" + 5;
+
+// 7.
+fun g( { print "oops"; }
+
+// 8.
+var y = ;
+
+// 9.
+print (3 + 4) * 2;
+
+// 10.
+return 42;

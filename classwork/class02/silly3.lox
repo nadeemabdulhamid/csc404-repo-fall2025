@@ -1,0 +1,26 @@
+// predict output
+
+class A {
+  speak() { return "meow"; }
+}
+
+class B < A {
+  speak() { return 42; }
+}
+
+fun f(x) {
+  if (x) return A(); else return B();
+}
+
+var o = f(""); // "" is falsey, so returns B
+var p = f("cat"); // "cat" is truthy, so returns A
+
+if (o.speak() == 42) print "B says number";
+if (p.speak() == "meow") print "A says meow";
+
+print A;
+print B;
+print f;
+print o;
+print f == 3;
+
