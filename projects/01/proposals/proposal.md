@@ -5,7 +5,7 @@ This is a proposal for enabling support of arrays or lists, just like in python.
 
 ## Rationale
 Lists are one of the most basic and widely used data structure in programming. They enable developers to store and manipulate ordered collections of data. Without this feature, developers are forced to resort to create their own implementations of ways to store collections of data. 
-Alsmost every programming language, from Java to Python supports lists as a core feature of the language. Having native support for lists allow for intuitive and clean syntax when working with collections.
+Almost every programming language, from Java to Python supports lists as a core feature of the language. Having native support for lists allow for intuitive and clean syntax when working with collections.
 Since Lox is a minimalist language that is dynamically typed, a list of objects can be declared using the characters `[]`, with no concern about the type of objects inside the list. 
 
 Let us take a look on how this would benefit developers:
