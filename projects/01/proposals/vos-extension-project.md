@@ -11,6 +11,21 @@ The absence of arrays limits what can realistically be built, especially for tho
 - **Versatility:** With arrays, programs can store and manipulate collections of items.
 - **Realism:** Most modern programming languages (Python, Java, etc.) include arrays or lists as a core type. Lox feels incomplete without them.
 
+## Choice of Array Model
+This proposal focuses on adding dynamic arrays, similar to Python's lists or Java's ArrayList, rather than more traditional fixed arrays. Dynamic arrays are resizable collections that grow or shrink as needed. This choice is motivated by:
+- **Ease of Use:** Beginners don't need to predict array size during creation.
+- **Consistency:** Simple methods, like `.push()` and `.pop()`, only make sense with resizable arrays.
+- **Power:** Dynamic arrays can be used like fixed arrays, but not vice versa.
+
+## Tradeoffs and Efficiency Considerations
+### Fixed Arrays:
+- **Pros:** Predictable size, lower memory overhead, and strong performance. Gauranteed O(1) access/set operations.
+- **Cons:** Inflexible and inconvinient for general use. Insertions or resizes require copying, which is O(n).
+### Dynamic Arrays:
+- **Pros:** Flexible, user-friendly, and more consistent with other modern languages. Lays better foundation for implementing other high level structures (like stacks/queues).
+- **Cons:** Slightly more memory overhead as occasional resizing will be O(n).
+While dynamic arrays have a higher memory cost, their flexibility and convinience makes them the right choice for Lox.
+
 ## Specification of Syntax and Semantics
 ### Syntax
 ```
@@ -58,4 +73,4 @@ print sum; 	      // 15
 ```
 
 ## Conclusion
-Adding arrays to Lox would not only be educational, but practical. It would help to bridge the gap between Lox as a teaching language and Lox as a usable programming tool. By using syntax similar to other languages, arrays keep the language simple while significantly increasing its expressive power and make Lox more like a “real” language.
+Adding dynamic arrays to Lox would not only be educational, but practical. It would help to bridge the gap between Lox as a teaching language and Lox as a usable programming tool. By using syntax similar to other languages, arrays keep the language simple while significantly increasing its expressive power and make Lox more like a “real” language.
