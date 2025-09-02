@@ -40,7 +40,7 @@ The Tutor shows you programs in multiple languages, to reinforce that the concep
 
 # Submission
 
-At the end of each module, you will be provided a button to download a PDF version of completed modules. Please download each PDF and upload it to Canvas. We recommend you also hold on to the PDFs for review/reference.
+At the end of each module, you will be provided a button to download a PDF version of the completed module script. Please download each PDF and upload it to Canvas. We recommend you also hold on to the PDFs for review/reference.
 
 There is no presentation aspect to this activity.
 

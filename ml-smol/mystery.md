@@ -16,6 +16,8 @@ You need to classify most of the languages on most of the assignments. (This has
 
 The software is on [GitHub](https://github.com/shriram/mystery-languages#readme). The README provides installation instructions. Please also watch the [video](https://youtu.be/EogblZ1Rdpo) linked to the README to get a sense of the mechanics.
 
+You will need to download and install a [recent version of Racket](https://download.racket-lang.org/).
+
 ## Tasks
 
 For each language family, the documentation of available constructs is in the repository’s README. Note that the video shows you how to work with the variants of the `strings` language.
@@ -37,6 +39,10 @@ In the video, we end up with a small set of programs that can tell all the varia
 Observe that a given program in the classifier set may distinguish only one variant from all the others (just as in the video). When there are more than two variants, it is not always easy to produce a single program that can tell them all apart (i.e., produces a different answer in each variant); nor is it necessary. Sometimes a classifier is *much* clearer if each program distinguishes just one variant; then it has a clear purpose.
 
 Therefore, don’t try to get overly clever. A classifier *does not* have to be the *minimal* set necessary to tell apart the variants. You can if you want for your personal satisfaction, but that doesn’t mean you have to turn that in! Or if you do, try to also include simpler, less ambitious programs as well. 
+
+## Submission
+
+You should upload to Canvas a `Readme` file containing your classifiers, expressed as `TEST` forms as shown in the video. Provide a brief explanation of the different semantics that you have identified that distinguish each language from the other(s).
 
 ## Presentation
 
