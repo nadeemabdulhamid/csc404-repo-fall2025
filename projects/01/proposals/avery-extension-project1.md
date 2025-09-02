@@ -66,7 +66,7 @@ try {
 }
 ```
 
-<p>The second part of the function would be for the specific error that is being made. The "e" variable would represent the error class built-in to the programming language that would be programmed to check the operation in the try section and check for every error that could pop up. With try being connected to the error class, I would add a method in the class to get the last error message the operation ran into and have ```e.message``` print out that error.</p>
+<p>The second part of the function would be for the specific error that is being made. The "e" variable would represent the error class built-in to the programming language that would be programmed to check the operation in the try section and check for every error that could pop up. With try being connected to the error class, I would add a method in the class to get the last error message the operation ran into and have "e.message" print out that error.</p>
 
 ## Examples
 
