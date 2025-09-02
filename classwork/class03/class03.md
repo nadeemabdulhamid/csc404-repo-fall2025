@@ -1,5 +1,5 @@
 
-# Class 3 Activities - Scanning & Parsing
+# Class 3 Activities - Scanning & Syntax Trees
 
 ## Semicolon goofiness
 
