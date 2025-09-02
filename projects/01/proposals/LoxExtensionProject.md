@@ -1,5 +1,6 @@
 # PEP 001 : A proposed improvement for error handling
 Author: Cooper Cherry
+
 Date: 1-Sep-2025
 
 ## Abstract / Motivation
@@ -46,6 +47,7 @@ distinguish between:
 
 ## Examples
 Example 1: Current Error Code Highlighting the ambiguity of advice in the current system. ![Example 1](https://drive.google.com/file/d/1u767pejDqbC4ZEiHGtdJT-zqd0BQKYcv/view?usp=sharing)
+
 Example 2: ![An example of a potentially ambiguous control structure.](https://drive.google.com/file/d/1GDTz9nLYmbiDhxHoq35sFHCsdzC1xKTS/view?usp=sharing). This program's flow would be interpreted as 
 ```
 if (true) {
