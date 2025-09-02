@@ -18,20 +18,24 @@ I did not see a comment notation that worked like how I will describe with Lox. 
 Code example:
 
 Consider the following Lox code: 
+```
 fun f(x) {
   if (x) 
 return “Yes”; 
 else return “No”;}
-
+```
 That “x” may be any type.
 
 If I were to run: 
+```
 var o = f("");
 print o;
+```
 
 
 I would receive “yes”.
 If I were to write:
+```
 var o = f("");
 var p = f(67);
 var a = f(1738);
@@ -40,14 +44,16 @@ print o;
 print p;
 print a;
 print s;
+```
 I would receive true for every single print. While this isn’t necessarily a bad thing, it is a bit problematic and can lead to confusion when reading code written by peers.
 
 Here is an example of my new, optional syntax:
-Fun `boolean f(x) {
+```
+fun `boolean f(x) {
   if (x) 
 return “Yes”; 
 else return “No”;}
-
+```
 Now it is clearer to the reader what the original programmer expected for this function's input, avoiding mistakes and misunderstanding. 
 
 Fields in classes/ Local variables:
@@ -57,9 +63,12 @@ Multiple parameters:
 When a function in Lox takes multiple parameters, it would be standard to write each type in their respective orders with a space separating each one and a closing ' to signal that the type comment is over. 
 
 For example:
-
+```
 fun 'boolean int int' guyThatCompares(true,1,2){
 //Code
 }
-
+```
 Please notice that only one ' would be needed when commenting for one parameter to avoid redundancy. There's no point in looking for another ' when white space could simple denote the end of the comment as well. The comment will check that there is a white space after each character up until the end of the line. If there are no other 's, the comment will be only on that single word.  However, if there is a second ', the comment will continue from the first to the second '.
+
+Conclusion: 
+Type specifications can be incredibly helpful for programmers writing or reading in Lox. It would speed up comprehension, excrease readability, and could be a general quality of life change for the language. 
