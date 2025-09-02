@@ -46,12 +46,14 @@ distinguish between:
 -Some example categories are listed in the rationale section.
 
 ## Examples
-Example 1: Current Error Code Highlighting the ambiguity of advice in the current system. ![Example 1](https://drive.google.com/file/d/1u767pejDqbC4ZEiHGtdJT-zqd0BQKYcv/view?usp=sharing)
+Example 1: Current Error Code Highlighting the ambiguity of advice in the current system. <img width="1722" height="217" alt="Example1" src="https://github.com/user-attachments/assets/25e9e4a4-870d-4263-b150-090b0eb561b8" />
 
-Example 2: ![An example of a potentially ambiguous control structure.](https://drive.google.com/file/d/1GDTz9nLYmbiDhxHoq35sFHCsdzC1xKTS/view?usp=sharing). This program's flow would be interpreted as 
+Example 2: An example of a potentially ambiguous control structure.<img width="1220" height="70" alt="Example2" src="https://github.com/user-attachments/assets/8fe29797-e90b-4e51-8b8e-c332d5e41cf8" /> This program's flow would be interpreted as 
+
 ```
 if (true) {
   if (false) {
+
     print "inner";
   } else {
     print "outer"; // attaches here
@@ -59,6 +61,7 @@ if (true) {
 }
 ```
 when it is possible that the user who wrote the program wanted the flow to be as below, but forgot curly brackets or assumed that indentation would pair if and else's together like other languages.
+
 ```
 if (true) {
   if (false) print "inner"; 
