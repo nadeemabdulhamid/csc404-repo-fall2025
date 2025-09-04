@@ -5,6 +5,8 @@
 
 The best way to manage this, and other projects in this course, would be to maintain a repo with the code from the book as you work through each chapter. Then, for the extension projects, you should create a **branch** to work on the tasks, so that they don't interfere with the flow of the main development in the book. (If need be, you can merge changes into the main branch, in case you need to extend a project further for a later extension project.)
 
+Remember, it is fine (actually, encouraged if you get stuck) to use generative AI (e.g. Copilot integrated in VS Code) tools to help work on these projects. (Review the syllabus for policies - don't seek out complete, wholesale solutions on the internet, but use learning resources/documentation/reference as you need.) Just keep track of your chat transcripts as much as possible, as well as citations for other online resources you might use in completing the project and submit those in a separate `sources` text or PDF file.
+
 In class, a random couple of people will be asked to present your work on each of these.
 
 
