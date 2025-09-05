@@ -60,6 +60,16 @@ Expr and() {
 }
 ```
 
+<details>
+<summary>Gen AI credits</summary>
+ 
+*ChatGPT prompts [Accessed 9/4/25]:*
+> What's a good classroom activity to use in conjunction with the "Parsing Expressions" (chapter 6) chapter of Crafting Interpreters?
+
+> Provide a similar rule like "equality  → comparison ( ( "!=" | "==" ) comparison )*; " for a completely different grammar and a  recursive descent parser method with blanks to fill in snippets.
+</details>
+
+
 
 ## Parser Rule Abstraction
 
