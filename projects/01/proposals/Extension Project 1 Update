@@ -1,0 +1,64 @@
+# Extension Project 1 
+
+## Motivation and Rationale
+After re-reading the chapter about Lox Language and doing a bit of research, what I think would make Lox more useful for real programming is having data structures like HashMaps/Dictionaries built into the language like other Object Oriented Programming Languages (such as Python and Java) do. I believe this would make Lox more 'real' since these data structures are used for more real life scenarios such as storing contact information for employees at a company, inventory values for a store, etc.  
+
+## Syntax, Semantics, and Example 
+
+You could implement a HashMap or Dictionary into JLox using Java's built-in **java.util.Map** or **java.util.HashMap** interface which will make implementing this in JLox somewhat easier since you will already have all of the methods to be able to implement a hashmap available to you once you have this class in your file. This, I believe, would be considered more preferable compared to having to make the individual classes or methods completely from scratch before you could even start filling in your HashMap and testing that it is outputting correctly, which can be incredibly time-consuming. 
+
+For example, in Lox, if we wanted to have a HashMap to keep track of our keys and values, say they are two string where the key is the name of the item in a grocery store and the value is the type of that object or what department/section it is in.
+
+We could implement by creating a HashMap class in Lox, storing our keys and values inside of it, and expanding as needed:
+
+class Example {
+  
+  init(keys, values) {
+    this.keys = ["Apples", "Frozen Pizza", "Cough Medicine"];
+    this.values = ["Produce", "Frozen Meals", "Pharmacy"];
+  }
+
+setKeys(){
+
+this.keys = newKeys;
+    
+}
+
+setValues(){
+
+this.values = newValues;
+
+}
+
+
+getKeys(){ 
+
+print this.keys;
+
+}
+
+getValues(){
+
+print this.values;
+
+}
+
+}
+
+
+
+And the output would be this (if we decide to not change anything): 
+
+["Apples" -> "Produce"]
+["Frozen Pizza" -> "Frozen Meals"]
+["Cough Medicine" -> "Pharmacy"]
+
+
+
+
+
+
+
+
+
+
