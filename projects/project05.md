@@ -17,7 +17,7 @@ In class, a random couple of people will be asked to present your work on each o
 
 ## Option 3 - Object Superclass
 
-In Java, there is a special `Object` class that is the root of the class hierarchy - every class inherits from it, implicitly if not explicitly. Add this feature to Lox. The `Object` class in Lox should have a `toString()` and `equals()` methods. Try to define the `equals()` method to compare objects *structurally* (i.e. comparing their field values), rather than by identity (like how Java uses `==` by default)?
+In Java, there is a special `Object` class that is the root of the class hierarchy - every class inherits from it, implicitly if not explicitly. Add this feature to Lox. The `Object` class in Lox should have a `toString()` and `equals()` methods. Try to define the `equals()` method to compare objects *structurally* (i.e. comparing their field values), rather than by identity (like how Java uses `==` by default).
 
 ## Option 4 - Lox Extension
 
