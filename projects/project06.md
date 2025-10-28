@@ -20,3 +20,24 @@ Complete Challenge 4 in Chapter 15. In addition to `OP_NEGATE`, you should optim
 
 Download the [complete official Lox repository](https://github.com/munificent/craftinginterpreters) and make your changes in the `c/vm.c` file. Run your experimental tests before and after your changes on some of the benchmarks in the test directory, e.g. `test/benchmarks/fib.lox`.
 
+> ### My results
+>
+> Here are my experimental results on several (4) repeated runs - see if yours confirm these.
+>
+> #### Unmodified clox
+> `% build/clox test/benchmark/fib.lox`
+>
+> 1.21416
+> 1.20508
+> 1.22075
+> 1.23032
+>
+> #### Optimized OP_NEGATE and BINARY_OP
+>
+> 1.15067
+> 1.15598
+> 1.14634
+> 1.15268
+>
+> These numbers seem to indicate a noticeable improvement with the optimization implemented.
+>  
