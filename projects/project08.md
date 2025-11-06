@@ -10,4 +10,4 @@ Add [instrumentation](https://en.wikipedia.org/wiki/Instrumentation_(computer_pr
 - The interned strings table
 - The objects heap linked list (vm.h) (see Chapter 19, esp. 19.5)
 
-
+Display the relevant data in the `interpret()` function (vm.c) after the `compile()` and after the `run()`.
