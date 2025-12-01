@@ -11,6 +11,8 @@ You should also develop a poster (17" x 11" - tabloid size) to display on the ta
 
 > [Sample poster](./demo-poster-clank.pdf)
 
+The library has a large format printer that can be used to print out your poster. (If you have it ready by 11am on Thursday, you may send your PDF file to me via Discord or email and I can print it out for you.)
+
 You should be prepared to explain in layperson's terms the stages involved with implementing your language. You probably should also have some interesting examples of scripts in your language to have on hand to demonstrate. 
 
 Also, make sure you have a public Github repository for just your language implementation (not shared with other work for this course). It should have an updated, professional `readme` that includes instructions for running your interpreter and should be updated to reflect the final state of yoru language.
