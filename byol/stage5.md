@@ -13,4 +13,4 @@ You should also develop a poster (17" x 11" - tabloid size) to display on the ta
 
 You should be prepared to explain in layperson's terms the stages involved with implementing your language. You probably should also have some interesting examples of scripts in your language to have on hand to demonstrate. 
 
-
+Also, make sure you have a public Github repository for just your language implementation (not shared with other work for this course). It should have an updated, professional `readme` that includes instructions for running your interpreter and should be updated to reflect the final state of yoru language.
